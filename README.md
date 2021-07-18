@@ -14,3 +14,8 @@
     b. *"/orders"* -> prints out all the current orders.
     
     c. *"/deliver"* -> delivers & returns the status of the orders using above logic.
+    
+    
+    
+**Database**:
+    I have used SQLite database with Flask on the backend.
