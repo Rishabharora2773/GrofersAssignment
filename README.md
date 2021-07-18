@@ -1,4 +1,4 @@
-Order Distribution Logic:
+**Order Distribution Logic**:
 
 1. Group & Sort the orders by their slot numbers.
 
@@ -7,7 +7,10 @@ Order Distribution Logic:
     b. After you're done delivering orders on Bike, start delivering the remaining on scooters, and then on truck.
     c. While doing steps a,b we keep in mind the limitations of availability of vehicles.
 
-3. API Endpoints exposed:
-    a. "/" -> adds some random orders & vehicles in database.
-    b. "/orders" -> prints out all the current orders.
-    c. "/deliver" -> delivers the orders using above logic.
+3. **API Endpoints exposed**:
+
+    a. *"/"* -> adds some random orders & vehicles in database.
+    
+    b. *"/orders"* -> prints out all the current orders.
+    
+    c. *"/deliver"* -> delivers & returns the status of the orders using above logic.
